@@ -1,13 +1,23 @@
 .page {
   min-width: 320px;
   max-width: 1280px;
+  padding: 28px 0 24px 0;
   margin: 0 auto;
   font-family: 'Iter';
   background-color: #2A2C2F;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
 }
 
 .page h1, .page h2, .page h3,
 .page h4, .page h5, .page h6,
 .page p {
   margin: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-top: 16px;
+  }
 }
