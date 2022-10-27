@@ -3,16 +3,10 @@
     text-rendering: optimizeLegibility;
     font-style: normal;
     font-weight: 900;
-    font-size: calc(40px + (56 + 56 * 0.3) * ((100vw - 320px) / 1280));
+    font-size: calc(40px + (56 + 56 * 0.3) * ((min(1280px,100vw) - 320px) / 1280));
     line-height: 0.96;
     text-align: center;
-    width: auto;
-}
-
-@media screen and (max-width: 1280px) {
-    .lead__title {
-        max-width: 720px;
-    }
+    max-width: 720px;
 }
 
 @media screen and (max-width: 320px) {
