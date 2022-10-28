@@ -1,27 +1,24 @@
 .header {
   width: calc(100% - 96px);
-  margin: 0 48px 56px 48px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-    margin-bottom: 48px;
+@media screen and (max-width: 320px) {
+  .page__header {
+    margin: 0 16px 48px 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     width: calc(100% - 48px);
-    margin: 0 24px 48px 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .header {
     width: calc(100% - 32px);
-    margin: 0 16px 48px 16px;
   }
 }
