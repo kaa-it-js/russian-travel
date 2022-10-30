@@ -5,12 +5,6 @@
   align-items: center;
 }
 
-@media screen and (max-width: 320px) {
-  .page__header {
-    margin: 0 16px 48px 16px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .header {
     width: calc(100% - 48px);

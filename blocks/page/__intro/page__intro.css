@@ -1,0 +1,9 @@
+.page__intro {
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width: 320px) {
+    .page__intro {
+        margin-bottom: 64px;
+    }
+}
