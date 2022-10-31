@@ -1,0 +1,10 @@
+.place__title-first-line::after {
+    content: "\a";
+    white-space: pre;
+}
+
+@media screen and (max-width: 480px) {
+    .place__title-first-line::after {
+        content: " ";
+    }
+}

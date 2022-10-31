@@ -1,0 +1,15 @@
+.place {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: max-content min-content max-content;
+    column-gap: 40px;
+}
+
+@media screen and (max-width: 480px) {
+    .place {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4, max-content);
+        row-gap: 32px;
+    }
+}

@@ -1,0 +1,26 @@
+.page__places {
+    margin: 0 148px 92px 148px;
+}
+
+@media screen and (max-width: 1024px) {
+    .page__places {
+        margin-left: 48px;
+        margin-right: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page__places {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .page__places {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 66px;
+    }
+}
