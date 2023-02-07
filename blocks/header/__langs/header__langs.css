@@ -1,0 +1,7 @@
+.header__langs {
+    display: flex;
+    column-gap: 18px;
+    padding-bottom: 5px;
+    align-self: flex-end;
+    
+}
